@@ -12,14 +12,18 @@ header > .nav-container{
     justify-content: space-between;
     align-items: center;
 }
-header > .nav-container > .logo{
+header > .nav-container > .logo > a{
     margin-left: 80px;
     font-size: 20px;
     font-weight: 700;
     color: rgb(79 70 229);
     font-size: 22px;
+    text-decoration: none;
 }
-header > .nav-container > .logo > span{
+.active{
+    color: rgb(225, 60, 96);
+}
+header > .nav-container > .logo > a > span{
     color: rgb(225 29 72);
 }
 header > .nav-container > .navbar > nav > ul{
