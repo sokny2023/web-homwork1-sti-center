@@ -1,0 +1,267 @@
+html{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    margin: auto;
+    background-color: #eeeeee;
+}
+header > .nav-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .nav-container > .logo{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(79 70 229);
+    font-size: 22px;
+}
+header > .nav-container > .logo > span{
+    color: rgb(225 29 72);
+}
+header > .nav-container > .navbar > nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header > .nav-container > .navbar > nav > ul > li{
+    font-size: 20px;
+    list-style: none;
+}
+header > .nav-container > .navbar > nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(79 70 229);
+    font-weight: 500;
+}
+header > .nav-container > .acc{
+    margin-right: 80px;
+    color: rgb(225 29 72);
+    font-size: 20px;
+}
+
+main{
+    width: 100vw;
+    /* height: 100vh; */
+}
+main > .hero-section{
+    width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main > .hero-section > .content{
+    width: 50%;
+    margin-right: 10px;
+}
+main > .hero-section > .content > h1{
+    font-size: 40px;
+}
+main > .hero-section > .content > p{
+    font-size: 18px;
+    color: rgb(19, 19, 19);
+    line-height: 1.8;
+}
+main > .hero-section > .content > a{
+    padding: 7px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(79 70 229);
+    text-decoration: none;
+    border-radius: 5px;
+}
+main> .hero-section > .img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+}
+main> .hero-section > .img > img{
+    width: 70%;
+}
+
+main > .course{
+    width: 100vw;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin: auto;
+}
+main > .course > h2{
+    margin-left: 80px;
+}
+main > .course > .box-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+main > .course > .box-container > .box{
+    background-color: rgb(212, 226, 226);
+    width: 20%;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+main > .course > .box-container > .box > img{
+    width: 100%;
+    text-align: center;
+}
+main > .course > .box-container > .box > h3{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+main > .course > .box-container > .box > p{
+    font-size: 18px;
+    color: rgb(19, 19, 19);
+    line-height: 1.7;
+}
+main > .course > .box-container > .box > .discount{
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(225, 60, 96);
+    color: white;
+    border-radius: 5px;
+}
+main > .course > .box-container > .box > .buttom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+main > .course > .box-container > .box > .buttom > .hour{
+    background-color: rgb(187, 230, 236);
+    padding: 5px;
+    border-radius: 3px;
+}
+main > .course > .box-container > .box > .buttom > .level{
+    background-color: rgb(191, 230, 195);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(22, 135, 64);
+}
+
+footer{
+    width: 100vw;
+    background-color: #e5dfdf;
+}
+footer > .footer-container{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+footer > .footer-container > .column{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+footer > .footer-container > .column > h3{
+    font-size: 20px;
+    color: rgb(22, 135, 64);
+    text-align: left;
+    margin-left: 40px;
+}
+footer > .footer-container > .column > ul {
+    margin-top: -10px;
+}
+footer > .footer-container > .column > ul > li{
+    list-style: none;
+    margin-top: 7px;
+}
+footer > .footer-container > .column > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+footer > .end{
+    margin-top: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > .end > .line{
+    width: 800px;
+    height: 1px;
+    background-color: rgb(22, 135, 64);
+}
+footer > .end > h3{
+    font-size: 18px;
+}
+
+/* Enroll page */
+.enroll{
+    width: 100vw;
+    margin-top: 30px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.enroll > .enroll-form > h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.enroll > .enroll-form > .form-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 800px;
+    background-color: rgb(194, 234, 209);
+    box-shadow: 2px 2px 3px rgb(168, 166, 166);
+}
+.enroll > .enroll-form > .form-container > form{
+    padding: 20px;
+    width: 45%;
+    margin-left: 80px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.enroll > .enroll-form > .form-container > form > div> button{
+    padding: 5px 20px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin: 2px;
+}
+.enroll > .enroll-form > .form-container > form > div > .btn-submit{
+    background-color: rgb(22, 135, 64);
+}
+.enroll > .enroll-form > .form-container > form > div > .btn-cancel{
+    background-color: rgb(225, 60, 96);
+}
+.enroll > .enroll-form > .form-container > div{
+    width: 50%;
+    background-image: url("https://img.freepik.com/free-vector/gradient-top-view-laptop-technology-background_52683-4503.jpg?w=996&t=st=1705631730~exp=1705632330~hmac=6e74542f0aeabcd3ef72e7f325daee4e18a6280714b62ce0f0801b90281b374c");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
